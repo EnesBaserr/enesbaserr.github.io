@@ -1,1 +1,10 @@
-npx --no -- commitlint --edit $1
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# If the commit message file doesn't exist, skip commitlint
+if [ ! -f "$1" ]; then
+  echo "Skipping commitlint: $1 not found"
+  exit 0
+fi
+
+npx --no -- commitlint --edit "$1"
