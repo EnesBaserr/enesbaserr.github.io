@@ -8,5 +8,5 @@ order: 4
 
 ### Enes Baser
 
-- I am Enes Baser, a senior Computer Engineering student at Bogazici University - Istanbul.
+- I am Enes Baser, a senior Computer Engineering student at Bogazici University - Istanbul-Bebek.
   - Part-Time SWE
